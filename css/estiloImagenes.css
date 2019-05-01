@@ -1,0 +1,50 @@
+@import url(reset.css);
+
+@font-face{
+    font-family: "MiPropiaFuente";
+    src: url('../SailingHeartFree.ttf');
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 98%;
+}
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 98%;
+    border-top: 45px solid rgba(28, 105, 5, 0);
+
+}
+
+figure {
+  width: 15%;
+    
+}
+figure img{
+    border-radius: 15px;
+    transition: all .5s;
+}
+figure img:hover{
+    transform: scale(1.2);
+    transform: translateX(20px);
+    transition: all .9s;
+}
+
+h1{
+    font: bold 2em MiPropiaFuente;
+    width: 75%;
+    margin:15px auto;
+    text-align: center;
+    background: -webkit-linear-gradient(top,#00f,#0fcf);
+    box-shadow: #00f 5px 5px 10px;
+    display: block;
+    transition: all .5s;
+    transform: rotateX(3%);
+    
+}
+
